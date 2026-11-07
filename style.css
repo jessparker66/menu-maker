@@ -3,16 +3,33 @@ body {
   max-width: 40rem;
   margin: 40px auto;
   padding: 0 16px;
+  box-sizing: border-box;
+  background-color: #f0da7a;
+  color: #333;
+  line-height: 1.6
 }
 
 label {
   display: block;
   font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 textarea {
   width: 100%;
   font-family: monospace;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100px;
 }
 
 #message {
