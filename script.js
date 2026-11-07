@@ -11,3 +11,5 @@ form.addEventListener("submit", function (event) {
 const li = document.createElement("li");
 li.textContent = Item.name + " - $" + Item.price;
 list.appendChild(li);
+
+message.textContent = "Menu update unsuccessfully. Check your input.";
