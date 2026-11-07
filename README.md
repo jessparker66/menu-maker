@@ -10,11 +10,8 @@ A small tool for the Perfect Patties food truck: paste a menu as JSON, click a b
 2. Click **Show my menu** to see it as a list.
 3. To try your own menu, replace the text with JSON like this:
 
-```json
-[
   {"name": "Savory Patty", "price": 6.5},
   {"name": "Vegan Patty", "price": 7}
-]
-```
+
 
 If the JSON has a mistake, like a missing quote or comma, the page shows a message telling you what to check instead of breaking.# menu-maker
