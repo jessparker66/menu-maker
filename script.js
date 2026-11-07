@@ -8,4 +8,6 @@ form.addEventListener("submit", function (event) {
     console.log("You typed:", input.value);
 });
 
-
+const li = document.createElement("li");
+li.textContent = Item.name + " - $" + Item.price;
+list.appendChild(li);
