@@ -10,15 +10,17 @@
 <body>
 <form id="menu-form">
  <label for="menu-input">Paste your menu as JSON:</label>
-<textarea id="menu-input" rows="8"><div {'name': "Savory Patty", "price": 6.50},{'name': "Vegan Patty", "price": 7},{'name': "Spicy Patty", "price": 8},{'name': "Classic Patty", "price": 7.50}></div></textarea>
+<textarea id="menu-input" rows="8">[
+    {'name': "Savory Patty", "price": 6.50},
+    {'name': "Vegan Patty", "price": 7},
+    {'name': "Spicy Patty", "price": 8},
+    {'name': "Classic Patty", "price": 7.50}
+    ]</textarea>
 <button type="submit">Show my menu</button>
 </form>
 
 <p id="message"></p>
 <ul id="menu-list"></ul>
-
-<textarea id="menu-output" rows="8"></textarea>
-
 
     <script src="script.js" defer></script>
 </body>
